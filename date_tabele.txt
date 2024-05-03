@@ -1,0 +1,107 @@
+TABEL CLIENT
+
+insert into client
+values('1001','Garaiman A.','Pitesti, Str. Banatului, nr.1','0772958477')
+insert into client
+values('1002','Popescu Y.','Pitesti, Str. Eremia Grigorescu, nr.2','0745278990')
+insert into client
+values('1004','Serban M.','Pitesti, Str. Banatului, nr.12','0770282533')
+insert into client
+values('1007','Barbu C.','Bascov, Str. Scolii, nr.6','0748147809')
+insert into client
+values('1013','Margulescu I.','Pitesti, Calea Dragasani, nr. 54','0248308289')
+insert into client
+values('1014','Popescu M.','Pitesti, Str. Bradului, nr. 12','0750248835')
+insert into client
+values('1023','Ionescu I.','Pitesti, Str. Eremia Grigorescu, nr.7','0745867222')
+insert into client
+values('1034','Caramida I.','Hintesti, Str.Campului nr.26','0248280389')
+
+
+
+TABEL ANGAJAT
+
+insert into angajat
+values('1820615031234','Dorobantu','Marius','15-jun-82','Pitesti, Str. Campului, nr. 45','0771828952','8500')
+insert into angajat
+values('1950703035789','Marinescu','Adrian','03-jul-95','Pitesti, Bl. Nicolae Balcescu, nr. 17','0757282975','3100')
+insert into angajat
+values('2830124151780','Popescu','Ana-Maria','24-jan-83','Pitesti, Str. Negru Voda, nr.14','0728248365','3100')
+insert into angajat
+values('1981001034288','Baritiu','Octavian','01-oct-98','Pitesti, Str. Lucian Blaga, nr.8','0770123856','2400')
+insert into angajat
+values('2970509031033','Barbu','Daria','09-may-97','Pitesti, Str. Nicolae Dobrin, nr.21','0788292353','2500')
+
+
+
+TABEL FURNIZOR
+
+insert into furnizor
+values('200','Brutaria Trivale S.R.L.','Str. Frasinului, nr. 32','0248202889',NULL)
+insert into furnizor
+values('201','Metro Cash&Carry S.A.','Bradu, DN65B','0248128003',NULL)
+insert into furnizor
+values('202','Piata Ceair','Str. Ceair, nr. 2','0248275800',NULL)
+
+
+
+TABEL PRODUS
+
+insert into produs
+values('10','Shaorma mica','8','Cantitate: 300g')
+insert into produs
+values('11','Shaorma mare','12','Cantitate: 500g')
+insert into produs
+values('13','Kebap','7','Cantitate: 250g')
+insert into produs
+values('15','Hamburger','9','Cantitate: 200g')
+insert into produs
+values('16','Hamburger XXL','12','Cantitate: 325g')
+insert into produs
+values('21','Sandwich','5','Cantitate: 150g')
+insert into produs
+values('30','Suc','6','Cantitate: 400g')
+
+
+
+TABEL FACTURA
+
+insert into factura
+values('5001','1981001034288','1001','25','24-feb-2022',NULL)
+insert into factura
+values('5002','2970509031033','1002','20','24-feb-2022',NULL)
+insert into factura
+values('5003','1981001034288','1004','32','24-feb-2022',NULL)
+insert into factura
+values('5005','2970509031033','1013','20','26-feb-2022',NULL)
+
+
+
+TABEL LISTA
+
+insert into lista
+values('7001','11','5001','Shaorma Mare, Kebap, Suc')
+insert into lista
+values('7002','15','5002','Hamburger, Sandwich , Suc')
+insert into lista
+values('7003','16','5003','Hamburger XXL, Shaorma mica, Suc x2')
+insert into lista
+values('7005','10','5005','Shaorma mica, Shaorma mare')
+
+
+
+TABEL CONTRACT
+
+insert into contract
+values('120060','15-jan-2021','15-jan-2023','200','100')
+insert into contract
+values('120070','15-jan-2021','01-jul-2022','201','100')
+insert into contract
+values('120080','01-feb-2022','01-sep-2022','202','100')
+
+
+
+TABEL SHAORMERIE
+
+insert into shaormerie
+values ('100','Shaormeria Dabo','Pitesti, Str. Despot Voda, nr. 1','0721478903',NULL,'www.shaormeriedabo.ro',NULL)
